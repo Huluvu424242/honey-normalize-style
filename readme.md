@@ -50,6 +50,8 @@ To the [demo site](https://huluvu424242.github.io/honey-normalize-style/index.ht
     <honey-normalize-style />
 </honey-style>
 
+<your-component/>
+
 </body>
 ```
 To the [live demo](https://huluvu424242.github.io/honey-normalize-style/index.html)
