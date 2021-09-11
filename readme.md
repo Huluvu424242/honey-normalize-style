@@ -1,6 +1,7 @@
 [![Build Status](https://app.travis-ci.com/Huluvu424242/honey-normalize-style.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/honey-normalize-style)
 ![Github CI](https://github.com/Huluvu424242/honey-normalize-style/workflows/Github%20CI/badge.svg)
-[![npm](https://img.shields.io/npm/dv/@huluvu424242/honey-normalize-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-normalize-style)
+[![npm](https://img.shields.io/npm/v/@huluvu424242/honey-normalize-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-normalize-style)
+[![npm](https://img.shields.io/npm/dy/@huluvu424242/honey-normalize-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-normalize-style)
 [![npm](https://img.shields.io/npm/dm/@huluvu424242/honey-normalize-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-normalize-style)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@huluvu424242/honey-normalize-style)
 [![Donate with paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/huluvu424242)
