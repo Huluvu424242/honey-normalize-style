@@ -22,7 +22,7 @@ npm install --save @huluvu424242/honey-normalize-style
 </script>
 <script 
     nomodule 
-    src='https://unpkg.com/@huluvu424242/honey-normalize-style@0.0.1/dist/honey-normalize-style/honey-normalize-style.js'>
+    src='https://unpkg.com/@huluvu424242/honey-normalize-style@0.0.1/dist/cjs/honey-normalize-style.cjs.js'>
 </script>
 ```
 To the [demo site](https://huluvu424242.github.io/honey-normalize-style/index.html)
@@ -46,9 +46,9 @@ To the [demo site](https://huluvu424242.github.io/honey-normalize-style/index.ht
 
 <h1>Nutzung der honey-normalize-style Komponenten</h1>
 
-<honey-style>
+<honey-define-style>
     <honey-normalize-style />
-</honey-style>
+</honey-define-style>
 
 <your-component/>
 
