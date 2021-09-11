@@ -6,49 +6,32 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface HoneynormalizeStyle {
-    }
-    interface HoneyStyle {
-        /**
-          * Get the current theme as string in lowercase of tag name.
-         */
-        "getTheme": () => Promise<string>;
+    interface HoneyNormalizeStyle {
     }
 }
 declare global {
-    interface HTMLHoneynormalizeStyleElement extends Components.HoneynormalizeStyle, HTMLStencilElement {
+    interface HTMLHoneyNormalizeStyleElement extends Components.HoneyNormalizeStyle, HTMLStencilElement {
     }
-    var HTMLHoneynormalizeStyleElement: {
-        prototype: HTMLHoneynormalizeStyleElement;
-        new (): HTMLHoneynormalizeStyleElement;
-    };
-    interface HTMLHoneyStyleElement extends Components.HoneyStyle, HTMLStencilElement {
-    }
-    var HTMLHoneyStyleElement: {
-        prototype: HTMLHoneyStyleElement;
-        new (): HTMLHoneyStyleElement;
+    var HTMLHoneyNormalizeStyleElement: {
+        prototype: HTMLHoneyNormalizeStyleElement;
+        new (): HTMLHoneyNormalizeStyleElement;
     };
     interface HTMLElementTagNameMap {
-        "honey-normalize-style": HTMLHoneynormalizeStyleElement;
-        "honey-style": HTMLHoneyStyleElement;
+        "honey-normalize-style": HTMLHoneyNormalizeStyleElement;
     }
 }
 declare namespace LocalJSX {
-    interface HoneynormalizeStyle {
-    }
-    interface HoneyStyle {
+    interface HoneyNormalizeStyle {
     }
     interface IntrinsicElements {
-        "honey-normalize-style": HoneynormalizeStyle;
-        "honey-style": HoneyStyle;
+        "honey-normalize-style": HoneyNormalizeStyle;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "honey-normalize-style": LocalJSX.HoneynormalizeStyle & JSXBase.HTMLAttributes<HTMLHoneynormalizeStyleElement>;
-            "honey-style": LocalJSX.HoneyStyle & JSXBase.HTMLAttributes<HTMLHoneyStyleElement>;
+            "honey-normalize-style": LocalJSX.HoneyNormalizeStyle & JSXBase.HTMLAttributes<HTMLHoneyNormalizeStyleElement>;
         }
     }
 }

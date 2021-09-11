@@ -1,1 +1,0 @@
-import{p as e,b as s}from"./p-5e888487.js";(()=>{const s=import.meta.url,p={};return""!==s&&(p.resourcesUrl=new URL(".",s).href),e(p)})().then((e=>s([["p-7979baa8",[[0,"honey-normalize-style"],[0,"honey-style",{getTheme:[64]}]]]],e)));
