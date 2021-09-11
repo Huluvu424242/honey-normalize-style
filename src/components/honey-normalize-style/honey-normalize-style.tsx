@@ -2,13 +2,12 @@ import {Component, getAssetPath, h} from '@stencil/core';
 
 @Component({
   tag: 'honey-normalize-style',
-  styleUrl: 'honey-normalize-style.css',
   assetsDirs: ['assets']
 })
-export class HoneynormalizeStyle {
+export class HoneyNormalizeStyle {
 
   render() {
-    const stylePath: string = getAssetPath('./assets/paper.min-1.8.2.css');
+    const stylePath: string = getAssetPath('./assets/normalize.css');
     return <link rel="stylesheet" href={stylePath}/>
   }
 }

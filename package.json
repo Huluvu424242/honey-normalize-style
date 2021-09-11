@@ -31,6 +31,7 @@
     "url": "https://github.com/Huluvu424242/honey-normalize-style/issues"
   },
   "scripts": {
+    "postinstall": "cp ./node_modules/normalize.css/normalize.css src/components/honey-normalize-style/assets/",
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "echo stencil test --spec --e2e",
@@ -45,7 +46,8 @@
     "node": "14.15.0"
   },
   "dependencies": {
-    "@stencil/core": "2.8.0"
+    "@stencil/core": "2.8.0",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@types/jest": "26.0.22",

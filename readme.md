@@ -20,6 +20,10 @@ npm install --save @huluvu424242/honey-normalize-style
     type="module" 
     src='https://unpkg.com/@huluvu424242/honey-normalize-style@0.0.1/dist/honey-normalize-style/honey-normalize-style.esm.js'>
 </script>
+<script 
+    nomodule 
+    src='https://unpkg.com/@huluvu424242/honey-normalize-style@0.0.1/dist/honey-normalize-style/honey-normalize-style.js'>
+</script>
 ```
 To the [demo site](https://huluvu424242.github.io/honey-normalize-style/index.html)
 
