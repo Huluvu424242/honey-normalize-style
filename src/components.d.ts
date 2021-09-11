@@ -6,7 +6,7 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface HoneyPapercssStyle {
+    interface HoneynormalizeStyle {
     }
     interface HoneyStyle {
         /**
@@ -16,11 +16,11 @@ export namespace Components {
     }
 }
 declare global {
-    interface HTMLHoneyPapercssStyleElement extends Components.HoneyPapercssStyle, HTMLStencilElement {
+    interface HTMLHoneynormalizeStyleElement extends Components.HoneynormalizeStyle, HTMLStencilElement {
     }
-    var HTMLHoneyPapercssStyleElement: {
-        prototype: HTMLHoneyPapercssStyleElement;
-        new (): HTMLHoneyPapercssStyleElement;
+    var HTMLHoneynormalizeStyleElement: {
+        prototype: HTMLHoneynormalizeStyleElement;
+        new (): HTMLHoneynormalizeStyleElement;
     };
     interface HTMLHoneyStyleElement extends Components.HoneyStyle, HTMLStencilElement {
     }
@@ -29,17 +29,17 @@ declare global {
         new (): HTMLHoneyStyleElement;
     };
     interface HTMLElementTagNameMap {
-        "honey-papercss-style": HTMLHoneyPapercssStyleElement;
+        "honey-normalize-style": HTMLHoneynormalizeStyleElement;
         "honey-style": HTMLHoneyStyleElement;
     }
 }
 declare namespace LocalJSX {
-    interface HoneyPapercssStyle {
+    interface HoneynormalizeStyle {
     }
     interface HoneyStyle {
     }
     interface IntrinsicElements {
-        "honey-papercss-style": HoneyPapercssStyle;
+        "honey-normalize-style": HoneynormalizeStyle;
         "honey-style": HoneyStyle;
     }
 }
@@ -47,7 +47,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "honey-papercss-style": LocalJSX.HoneyPapercssStyle & JSXBase.HTMLAttributes<HTMLHoneyPapercssStyleElement>;
+            "honey-normalize-style": LocalJSX.HoneynormalizeStyle & JSXBase.HTMLAttributes<HTMLHoneynormalizeStyleElement>;
             "honey-style": LocalJSX.HoneyStyle & JSXBase.HTMLAttributes<HTMLHoneyStyleElement>;
         }
     }

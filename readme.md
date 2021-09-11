@@ -1,28 +1,28 @@
-[![Build Status](https://app.travis-ci.com/Huluvu424242/honey-papercss-style.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/honey-papercss-style)
-![Github CI](https://github.com/Huluvu424242/honey-papercss-style/workflows/Github%20CI/badge.svg)
-[![npm](https://img.shields.io/npm/v/@huluvu424242/honey-papercss-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-papercss-style)
-[![npm](https://img.shields.io/npm/dm/@huluvu424242/honey-papercss-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-papercss-style)
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@huluvu424242/honey-papercss-style)
+[![Build Status](https://app.travis-ci.com/Huluvu424242/honey-normalize-style.svg?branch=master)](https://app.travis-ci.com/Huluvu424242/honey-normalize-style)
+![Github CI](https://github.com/Huluvu424242/honey-normalize-style/workflows/Github%20CI/badge.svg)
+[![npm](https://img.shields.io/npm/dv/@huluvu424242/honey-normalize-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-normalize-style)
+[![npm](https://img.shields.io/npm/dm/@huluvu424242/honey-normalize-style.svg)](https://www.npmjs.com/package/@huluvu424242/honey-normalize-style)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@huluvu424242/honey-normalize-style)
 [![Donate with paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/huluvu424242)
 ![Keybase BTC](https://img.shields.io/keybase/btc/huluvu424242)
-# honey-papercss-style 
+# honey-normalize-style 
 This project contains web components for styling honey webcomponents. 
 
 ## installation
 
-npm install --save @huluvu424242/honey-papercss-style
+npm install --save @huluvu424242/honey-normalize-style
 
 ## usage
 
 ```html
 <script 
     type="module" 
-    src='https://unpkg.com/@huluvu424242/honey-papercss-style@0.0.2/dist/honey-papercss-style/honey-papercss-style.esm.js'>
+    src='https://unpkg.com/@huluvu424242/honey-normalize-style@0.0.1/dist/honey-normalize-style/honey-normalize-style.esm.js'>
 </script>
 ```
-To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.html)
+To the [demo site](https://huluvu424242.github.io/honey-normalize-style/index.html)
 
-[Vision of API (under construction)](src/components/honey-papercss-style/readme.md)
+[Vision of API (under construction)](src/components/honey-normalize-style/readme.md)
 
 ## demo
 
@@ -39,15 +39,15 @@ To the [demo site](https://huluvu424242.github.io/honey-papercss-style/index.htm
 ```html
 <body id="seite" style="display: block">
 
-<h1>Nutzung der honey-papercss-style Komponenten</h1>
+<h1>Nutzung der honey-normalize-style Komponenten</h1>
 
 <honey-style>
-    <honey-papercss-style />
+    <honey-normalize-style />
 </honey-style>
 
 </body>
 ```
-To the [live demo](https://huluvu424242.github.io/honey-papercss-style/index.html)
+To the [live demo](https://huluvu424242.github.io/honey-normalize-style/index.html)
 
 ## become an supporter
 
@@ -61,13 +61,9 @@ To the [live demo](https://huluvu424242.github.io/honey-papercss-style/index.htm
 
 ### vX.X.X unpublished
 
-### v0.0.2 published at 2021-09-06
+### v0.0.1 published at 2021-09-11
 
-* [issue 4](https://github.com/Huluvu424242/honey-papercss-style/issues/4) honey-style component added
-
-### v0.0.1 published at 2021-09-03
-
-* [issue 1](https://github.com/Huluvu424242/honey-papercss-style/issues/1) setup project
+* [feature 1](https://github.com/Huluvu424242/honey-normalize-style/projects/1#card-68570697) setup project
 
 ## warranty
 
